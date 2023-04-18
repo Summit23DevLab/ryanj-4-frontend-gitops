@@ -1,0 +1,15 @@
+app:
+  name: poi-backend-app
+  namespace: ryanj-4
+  cluster: .apps.summit23.0x74.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23DevLab/ryanj-4-frontend
+  org: Summit23DevLab
+  name: ryanj-4-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ryanj-4/poi-backend-app
+  tag: latest
